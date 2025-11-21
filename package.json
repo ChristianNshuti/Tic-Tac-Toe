@@ -1,0 +1,34 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "com.chrisnshuti.myapp",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "assets/icon.ico"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristianNshuti/Tic-Tac-Toe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChristianNshuti/Tic-Tac-Toe/issues"
+  },
+  "homepage": "https://github.com/ChristianNshuti/Tic-Tac-Toe#readme",
+  "description": "",
+  "devDependencies": {
+    "electron": "^39.2.3",
+    "electron-builder": "^26.0.12"
+  }
+}
